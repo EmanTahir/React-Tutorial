@@ -1,24 +1,15 @@
 import './App.css';
+import Navbar from './components/Navbar';
+import TextForm from './components/TextForm';
 
 
-let name = "Eman"
 
 function App() {
   return (
     <>
-      <nav>
-        <li>Home</li>
-        <li>About</li>
-        <li>Contact</li>
-      </nav>
-      <div className="container">
-        <h1>Hello {name}</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, 
-          perferendis. Et dolore provident unde voluptatem repudiandae, vitae 
-          libero autem molestiae, numquam doloremque, commodi dicta? Labore veniam 
-          ratione debitis tempore beatae?
-        </p>
+      <Navbar title="Text Converter" aboutText="About"/>  
+      <div className="container my-3">
+      <TextForm heading = "Enter the text to analyze"/>
       </div>
     </>
   );
