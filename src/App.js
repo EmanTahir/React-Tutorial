@@ -7,10 +7,9 @@ import TextForm from './components/TextForm';
 function App() {
   return (
     <>
-      <Navbar title="Text Converter" aboutText="About"/>
-      {/* <Navbar/> */}
+      <Navbar title="Text Converter" aboutText="About"/>  
       <div className="container my-3">
-      <TextForm heading = "HEAD"/>
+      <TextForm heading = "Enter the text to analyze"/>
       </div>
     </>
   );
